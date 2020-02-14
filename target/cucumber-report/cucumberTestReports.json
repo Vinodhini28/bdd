@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 28,
+        "name": "Launch demoborland and click on Enter GMO",
+        "description": "",
+        "id": "place-an-order-in-demoborland-site.;launch-demoborland-and-click-on-enter-gmo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12222688900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I Launch the Borland URL in Chrome",
+            "match": {
+              "location": "stepDefinitionpom.launchURL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1142662800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I Click on Enter GMO Online Button in GMO Online Page",
+            "match": {
+              "location": "stepDefinitionpom.clickEnterGMOOnlineButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1044872600,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I enter Quantity as \"10\" in Online Catalog Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitionpom.entrQuantityfortheProduct(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 27,
+            "name": "@PageFact"
+          }
+        ]
+      }
+    ],
+    "name": "Place an Order in Demoborland site.",
+    "description": "",
+    "id": "place-an-order-in-demoborland-site.",
+    "keyword": "Feature",
+    "uri": "testcase.feature"
+  }
+]
