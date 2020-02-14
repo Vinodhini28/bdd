@@ -23,6 +23,7 @@ Examples:
     | 1004    |    5     |
     | 1002    |   10     |
     | 1001    |   3      |
+    | 1003    |   3      |
     
  @PageFact
  Scenario:  Launch demoborland and click on Enter GMO
